@@ -1,5 +1,7 @@
 package com.puzzle.temperature;
 
+import java.util.Scanner;
+
 public class Temperature {
 	 /*
      * méthode de tri d'un tableau 
@@ -19,7 +21,8 @@ public class Temperature {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in); 
+		int n = in.nextInt(); // the number of temperatures to analyse
 
 	}
 
