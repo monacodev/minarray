@@ -19,6 +19,18 @@ public class Temperature {
 		}
 		return tab;
 	}
+	
+	/*
+     * méthode de tri d'un tableau 
+     */
+	
+	public static void  display(int [] tab) {
+		for (int i = 0; i < tab.length; i++) {
+			System.out.println(tab[i]);
+			
+		}
+		
+	}
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in); 
